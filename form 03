@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<div>
+		<div>
+			<label>prénom</label>
+		</div>
+		<div>
+			<input type="text" name="prenom" value="" placeholder="prénom" />
+		</div>
+	</div>	
+		<div>
+		<div>	
+			<label>nom</label>
+		</div>
+		<input type="text" name="nom" value="" placeholder="nom" />
+		</div>
+	</div>	
+	<div>
+	</div>
+	<label>email</label>
+		<input type="email" name="email" value="" placeholder="email" />
+	<div>
+	</div>
+	<label>date</label>
+		<input type="date" name="date" value="" placeholder="date de naissance" />
+	<div>
+	</div>
+	<label>heure d'arrivée</label>
+		<input type="time" name="time" value="" placeholder="heure d'arrivée" />
+	<div>
+	</div>
+	<label>heure du rdv</label>
+		<input type="date time" name="date_time" value="" placeholder="date et heure de rdv" />
+	<div>
+	</div>
+	<label>nombre de pokémon</label>
+		<input type="number" name="numero" value="" placeholder="nombre de pokémon" />
+	<div>
+	</div>
+	<label>telephone</label>
+		<input type="tel" name="telephone" value="" placeholder="téléphone" />
+	<div>
+	</div>
+	<label>votre cv</label>
+		<input type="file" name="portrait" value="" />
+	<div>
+	</div>
+		<input type="color" name="couleur_fond" value="" />
+	<div>
+	</div>
+		<input type="range" name="time" value="" />
+	<div>
+	</div>
+		<input type="checkbox" name="choix_multiple" value="choix1" /> choix 1
+	<div>
+	</div>
+		<input type="checkbox" name="choix_multiple" value="choix2" /> choix 2
+	<div>
+	</div>
+		<input type="checkbox" name="choix_multiple" value="choix3" /> choix 3
+	<div>
+	</div>
+		<input type="radio" name="choix_unique" value="choix1" /> choix 1
+	<div>
+	</div>
+		<input type="radio" name="choix_unique" value="choix2" /> choix 2
+	<div>
+	</div>
+		<input type="radio" name="choix_unique" value="choix3" /> choix 3
+	<div>
+	</div>
+</body>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<h1>question 1</h1>	
+<input type="checkbox" name="question 1" value="" /> choix 1
+	<div>
+	</div>
+		<input type="checkbox" name="question 1" value="" /> choix 2
+	<div>
+	</div>
+		<input type="checkbox" name="question 1" value="" /> choix 3
+	<div>
+	</div>
+		<input type="radio" name="question 1" value="" /> choix 1
+	<div>
+	</div>
+		<input type="radio" name="question 1" value="" /> choix 2
+	<div>
+	</div>
+		<input type="radio" name="question 1" value="" /> choix 3
+	<div>
+	</div>
+	<h2>question 2</h2>	
+		<input type="checkbox" name="question 2" value="" /> choix 1
+	<div>
+	</div>
+		<input type="checkbox" name="question 2" value="" /> choix 2
+	<div>
+	</div>
+		<input type="checkbox" name="question 2" value="" /> choix 3
+	<div>
+	</div>
+		<input type="radio" name="question 2" value="" /> choix 1
+	<div>
+	</div>
+		<input type="radio" name="question 2" value="" /> choix 2
+	<div>
+	</div>
+		<input type="radio" name="question 2" value="" /> choix 3
+	<div>
+	</div>
+</body>

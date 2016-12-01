@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8"/>
+	</head>
+	<body>
+		<h1>Création d'un article</h1>
+		<form action="" method="post" enctype="multipart/form-data">
+			<div>
+				<label>titre</label>
+			</div>
+			<div>
+				<input type="titre" name="titre" value="" maxlength="255" />
+			</div>
+			<div>
+				<label>chapeau</label>
+			</div>
+			<div>
+				<textarea name="chapeau" placeholder="votre chapeau" value="" maxlength="255"></textarea>
+			</div>
+			<div>	
+				<label>corps de texte</label>
+			</div>
+			<div>
+				<textarea name="corps_de_texte" placeholder="corps de texte" value="" maxlength="255"></textarea>
+			</div>
+			<div>
+				<label>Langue</label>
+			</div>
+			<div>
+				<select name="langue" required="">					
+					<option value="fr">fr</option>
+					<option value="en">en</option>
+					</select>
+				</div>
+				<div>
+				<label>Catégorie</label>
+			</div>
+			<div>
+				<select name="categorie" required="">					
+					<option value="qcu">qcu</option>
+					<option value="actus">actus</option>
+					<option value="archives">archives</option>
+					<option value="portfolio">portfolio</option>
+					<option value="autre">autre</option>
+					</select>
+				</div>
+				<div>
+				<label>Tags</label>
+			</div>
+				<div>	
+					<input type="checkbox" name="choix_multiple" value="Qcm" /> Qcm
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="technologie" /> technologie
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="droit" /> droit
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="html" /> html
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="css" /> css
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="php" /> php
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="js" /> js
+				</div>
+				<div>
+					<input type="checkbox" name="choix_multiple" value="ruby" /> ruby
+				</div>
+				
+				<div>
+				<label>Image</label>
+			</div>
+			<div>	
+				<img src="http://www.teleprospection.eu/wp-content/uploads/2012/02/fichier-qualifie-300x300.jpg" alt="supprimer">
+			</div>
+			<div>
+				<input type="file" name="upload fichiers" multiple="" />
+			</div>
+			<div>
+				<a href="https://upload.wikimedia.org/wikipedia/commons/8/83/Ic%C3%B4ne-suppression.png">Lien suppression</a>
+				

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8"/>
+	</head>
+	<body>
+		<h1>Page création de catégorie</h1>
+		<form action="" method="post" enctype="multipart/form-data">
+			<div>
+				<label>nom</label>
+			</div>
+			<div>
+				<textarea name="nom" placeholder="votre nom" value="" maxlength="255"></textarea>
+			</div>
+			<div>
+				<label>slug</label>
+			</div>
+			<div>
+				<input type="slug" name="slug" value="" maxlength="255" />
+			</div>
+			<div>
+				<label>description</label>
+			</div>
+			<div>
+				<textarea name="description" placeholder="description" value="" equired=""></textarea>
+			</div>
+			<div>
+				<label>langue</label>
+			</div>
+			<div>
+				<select name="langue" required="">
+					<option value="Choisissez votre langue">choisissez votre langue</option>				
+					<option value="fr">fr</option>
+					<option value="en">en</option>
+					</select>
+				</div>
+				<div>
+                <button>Envoyer</button>
+            </div>
+        </form>
+    </body>
+</html>
+
+
